@@ -16,6 +16,8 @@ This service is a `NodeJS` service, So we need **NodeJS** to be installed .
 
 3. Install the dependencies of catalogue application.
 
+****
+
 Run the next commands with following settings.
 
 User - `catalogue`
