@@ -25,7 +25,7 @@ Directory - `/home/catalogue/catalogue`
 $ npm install 
 ```
 
-4. Need to import cart service to the system, To manage with `systemctl`.
+4. Need to import `catalogue` service to the system, To manage with `systemctl`.
 
 ```
 # mkdir -p /var/log/robo-shop/
