@@ -18,7 +18,8 @@ This service is a `NodeJS` service, So we need **NodeJS** to be installed .
 
 Run the following as 
 
-```
+User - `catalogue`
+Directory
 
 ```
 $ npm install 
