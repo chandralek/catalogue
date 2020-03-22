@@ -19,6 +19,7 @@ This service is a `NodeJS` service, So we need **NodeJS** to be installed .
 Run the next commands with following settings.
 
 User - `catalogue`
+
 Directory - `/home/catalogue/catalogue`
 
 ```
