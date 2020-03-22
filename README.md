@@ -25,4 +25,12 @@ Directory - `/home/catalogue/catalogue`
 $ npm install 
 ```
 
-4.
+4. Need to import cart service to the system, To manage with `systemctl`.
+
+```
+# mkdir -p /var/log/robo-shop/
+# cp cart.service /etc/systemd/system/cart.service
+# systemctl daemon-reload
+# systemctl enable cart
+# systemctl start cart
+```
