@@ -22,7 +22,7 @@ Run the next commands with following settings.
 
 User - `catalogue`
 
-Directory - `https://gitlab.com/batch46/robo-shop/catalogue.git`
+Directory - `/home/catalogue/catalogue`
 
 ```
 $ npm install 
@@ -32,7 +32,7 @@ $ npm install
 
 ```
 # mkdir -p /var/log/robo-shop/
-# cp catalogue.service /etc/systemd/system/catalogue.service
+# cp /home/catalogue/catalogue/catalogue.service /etc/systemd/system/catalogue.service
 # systemctl daemon-reload
 # systemctl enable catalogue
 # systemctl start catalogue
