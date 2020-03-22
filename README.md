@@ -22,7 +22,7 @@ Run the next commands with following settings.
 
 User - `catalogue`
 
-Directory - `/home/catalogue/catalogue`
+Directory - `https://gitlab.com/batch46/robo-shop/catalogue.git`
 
 ```
 $ npm install 
