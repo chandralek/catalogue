@@ -31,6 +31,6 @@ $ npm install
 # mkdir -p /var/log/robo-shop/
 # cp catalogue.service /etc/systemd/system/catalogue.service
 # systemctl daemon-reload
-# systemctl enable cart
-# systemctl start cart
+# systemctl enable catalogue
+# systemctl start catalogue
 ```
