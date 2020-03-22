@@ -1,8 +1,8 @@
 [Unit]
-Description=Node.js Cart Service
+Description=Node.js Catalogue Service
 
 [Service]
-User=cart
+User=catalogue
 ExecStart=/bin/node /home/cart/cart/server.js
 Restart=always
 RestartSec=10
