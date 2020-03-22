@@ -14,4 +14,8 @@ This service is a `NodeJS` service, So we need **NodeJS** to be installed .
 # useradd catalogue 
 ```
 
-3. Install the dependencies 
+3. Install the dependencies of catalogue application.
+
+```
+
+```
