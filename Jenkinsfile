@@ -21,7 +21,7 @@ pipeline {
     stage('Create Archive to Upload') {
       steps {
         sh '''
-          tar -czf user-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz node_modules package.json  server.js
+          tar -czf catalogue-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz node_modules package.json  server.js
         '''
       }
     }
@@ -29,7 +29,7 @@ pipeline {
     stage('Upload To Nexus') {
       steps {
         sh '''
-          curl -v -u $NEXUS --upload-file user-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devopsb46.online/repository/catalogue-service/catalogue-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
+          curl -v -u $NEXUS --upload-file catalogue-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devopsb46.online/repository/catalogue-service/catalogue-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
         '''
       }
     }
