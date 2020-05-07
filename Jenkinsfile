@@ -27,7 +27,7 @@ pipeline{
             {
               steps{
                 sh '''
-          curl -f -v -u $NEXUS --upload-file catalogue-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devopsb46.online/repository/catalogue-service/catalogue-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
+          curl -f -v -u $NEXUS --upload-file catalogue-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devops46.online/repository/catalogue-service/catalogue-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
               '''
               }
             }
